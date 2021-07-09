@@ -63,7 +63,7 @@ def create_app(test_config=None):
     # flask를 작동시킨 후 해당 경로로 이동하면 "Hello, Nice to meet you!"가 출력됨을 확인할 수 있다.
     @app.route('/hello')
     def hello():
-        return "Hello, world!"
+        return "Hello, World!"
     
     print("============================================================")
     print("flaskr/__init__.py에서 app이 생성되었습니다.")
